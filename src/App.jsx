@@ -9,8 +9,10 @@ function App() {
 
   return (
     <div>
-      <Home></Home>
-      <div className="fixed w-full bottom-0">
+      <div>
+        <Home></Home>
+      </div>
+      <div className="w-full">
         <Footer></Footer>
       </div>
     </div>
