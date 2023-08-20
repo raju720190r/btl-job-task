@@ -8,11 +8,11 @@ function App() {
   
 
   return (
-    <div>
-      <div>
+    <div className="flex flex-col h-screen">
+      <div className="">
         <Home></Home>
       </div>
-      <div className="w-full">
+      <div className="mt-auto">
         <Footer></Footer>
       </div>
     </div>
